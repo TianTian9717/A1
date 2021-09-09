@@ -1,0 +1,12 @@
+package portsim;
+
+import portsim.cargo.BulkCargo;
+import portsim.cargo.BulkCargoType;
+
+public class Main {
+
+    public static void main(String[] args) {
+        BulkCargo bc = new BulkCargo(1, "Harbin", 100, BulkCargoType.COAL);
+        System.out.println(bc);
+    }
+}
